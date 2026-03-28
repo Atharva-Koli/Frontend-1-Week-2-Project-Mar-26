@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  max-width: 1728px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #FCAF02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.nav-links li {
+  font-size: 28px;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.intro-left h1 {
+  font-size: 64px;
+}
+
+.intro-left p {
+  margin: 20px 0;
+  font-size: 28px;
+  line-height: 34px;
+  max-width: 900px;
+}
+
+.intro-left button {
+  width: 323px;
+  height: 66px;
+  background: #FCAF02;
+  border: none;
+  border-radius: 50px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+}
+
+.intro-right img {
+  width: 650px;
+  transform: scaleX(-1);
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px;
+}
+
+.contact h2 {
+  color: #FCAF02;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+.contact input {
+  width: 100%;
+  height: 82px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  border: 2px solid #FCAF02;
+  background: transparent;
+  color: #fff;
+  font-size: 28px;
+}
+
+.contact input::placeholder {
+  color: #FCAF02;
+}
+
+/* Remove blue outline */
+.contact input:focus {
+  outline: none;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row input {
+  width: 50%;
+}
+
+.contact button {
+  display: block;
+  margin: 30px auto;
+  width: 325px;
+  height: 82px;
+  border-radius: 100px;
+  border: none;
+  background: #FCAF02;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Table Section */
+.table-section {
+  padding: 60px;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #FCAF02;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #FCAF02;
+  padding: 20px;
+  font-size: 28px;
+  color: #FCAF02;
+  text-align: left;
+}
+
+tfoot td {
+  background: #FCAF02;
+  color: #000;
+}
